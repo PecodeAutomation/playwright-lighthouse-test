@@ -12,10 +12,10 @@ its package manager (npm) installed.  You can get them from [http://nodejs.org/]
 
 ### Clone playwright-lighthouse-test
 
-Clone the playwright-lighthouse-test repository using [giguitt]:
+Clone the playwright-lighthouse-test repository using [git][git]:
 
 ```
-git clone https://github.com/PecodeAutomation/playwright-lighthouse-test
+git clone https://github.com/PecodeAutomation/playwright-lighthouse-test.git
 ```
 
 ### Install Dependencies
@@ -34,8 +34,8 @@ npm install
 ### Run the Application
 ```
 "pw:headed": "npx playwright test",
-Run tests with an open browser
+    Run tests with an open browser
 or
 "pw:headless": "npx playwright test --headless"
-Run tests without a browser 
+    Run tests without a browser 
 ```
