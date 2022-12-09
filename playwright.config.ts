@@ -25,7 +25,7 @@ const config: PlaywrightTestConfig = {
     // browserName: 'firefox',
     /* Maximum time each action such as click() can take. Defaults to 0 (no limit). */
     actionTimeout: 0,
-    headless: false,
+    headless: true,
 
     trace: "on-first-retry",
     video: "on",
